@@ -2,6 +2,8 @@
 from adafruit_circuitplayground import cp
 import time
 
+cp.pixels.brightness = 0.05
+
 while True:
     if cp.switch:
         cp.pixels[0] = (137, 52, 184)

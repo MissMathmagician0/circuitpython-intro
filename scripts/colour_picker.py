@@ -1,7 +1,5 @@
-# SPDX-FileCopyrightText: 2020 ladyada for Adafruit Industries
-# SPDX-License-Identifier: MIT
-
-# CircuitPython NeoPixel Color Picker Example
+""" This example uses BLE to connect to adafruit app and listens to the
+colour picker """
 
 import board
 import neopixel

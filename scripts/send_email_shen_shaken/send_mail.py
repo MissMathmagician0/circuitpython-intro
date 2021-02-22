@@ -1,3 +1,6 @@
+""" This code listens to the USB port and sends an email
+when a certain message has been received """
+
 import time
 import serial
 import smtplib
